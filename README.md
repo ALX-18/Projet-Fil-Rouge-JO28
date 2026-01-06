@@ -1,67 +1,79 @@
-# Projet Fil Rouge JO28
+# YPerf - JO 2028
 
-## Script de filtrage (Sujet 3)
+Professional Data Storytelling + Predictive Analytics platform for olympic performance (Bachelor 3 IA & Data).
 
-Un script Python `filter_categories.py` permet de filtrer le dataset olympique (`olympics_dataset.csv`) selon différentes colonnes (Sport, Event, Medal, Year, NOC, Team, Sex...).
+## What was fixed in this refactor
 
-### Installation
+- Correct target definition: `medals_next_edition`
+- Strict temporal validation: train on years `< valid_year`, test on `valid_year`
+- Prediction bug fixed: 2028 projections now use only the latest available edition (2024), not cumulative historical rows
+- Medal aggregation corrected: `No medal` values are excluded from target counting
+- 2024 visibility fixed across app pages and KPI
+- Rich EDA with interactive Plotly charts and dynamic filters
+- Added athlete analytics page
 
-```bash
-pip install -r requirements.txt
+## Project structure
+
+```text
+app/
+  streamlit_app.py
+  pages/
+    1_Overview.py
+    2_EDA.py
+    3_Modeles.py
+    4_Predictions_2028.py
+    5_Athletes.py
+src/
+  app_data.py
+  config.py
+  data_prep.py
+  evaluation.py
+  features.py
+  model.py
+  noc.py
+  pipeline.py
+  predict.py
+  storytelling.py
+  ui.py
+  visualization.py
+data/
+  raw/
+  processed/
+models/
+reports/
+tests/
 ```
 
-### Aide
+## Install
 
 ```bash
-python filter_categories.py -h
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install -r requirements.txt
 ```
 
-### Exemples d'utilisation
+## Run pipeline
 
-1. Lister toutes les colonnes disponibles:
 ```bash
-python filter_categories.py --columns
+python -m src.pipeline
 ```
 
-2. Lister les valeurs uniques d'une colonne (ex: Sport):
+Outputs:
+- `data/processed/analytics_country_year_sport.csv`
+- `data/processed/supervised_country_year_sport.csv`
+- `models/baseline_last_value.pkl`
+- `models/random_forest.pkl`
+- `reports/metrics/model_metrics.json`
+- `reports/metrics/rf_feature_importance.csv`
+
+## Run app
+
 ```bash
-python filter_categories.py --unique Sport --limit 20
+python -m streamlit run app/streamlit_app.py
 ```
 
-3. Filtrer sur un sport et une médaille:
+## Tests
+
 ```bash
-python filter_categories.py --filter Sport=Rowing Medal=Gold --show-columns
+python -m pytest -q
 ```
-
-4. Recherche partielle (substring, insensible à la casse):
-```bash
-python filter_categories.py --filter Event=Butterfly --contains --limit 5
-```
-
-5. Filtrer plusieurs valeurs dans une même colonne:
-```bash
-python filter_categories.py --filter Medal=Gold,Silver Sport=Swimming --limit 10
-```
-
-6. Exporter le résultat filtré:
-```bash
-python filter_categories.py --filter NOC=FRA Medal=Gold --out result_fr_gold.csv
-```
-
-### Options principales
-
-- `--csv` : chemin vers le fichier (défaut: olympics_dataset.csv)
-- `--filter COL=VAL[,VAL2]` : un ou plusieurs filtres (espaces séparés)
-- `--contains` : applique une correspondance partielle (substring)
-- `--unique COL` : liste les valeurs uniques d'une colonne
-- `--columns` : affiche toutes les colonnes
-- `--show-columns` : affiche seulement les colonnes clés
-- `--limit N` : limite le nombre de lignes affichées
-- `--out fichier.csv` : exporte le résultat filtré
-
-### Notes
-
-- Les valeurs multiples se séparent par des virgules: `Medal=Gold,Silver`
-- Avec `--contains`, chaque valeur est cherchée comme fragment: pratique pour `Event`.
-
-Bonne analyse !

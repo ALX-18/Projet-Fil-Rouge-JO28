@@ -1,0 +1,23 @@
+﻿# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Data artifacts
+data/processed/*.csv
+data/interim/*
+models/*.pkl
+reports/metrics/*.json
+
+# Notebook and app artifacts
+.ipynb_checkpoints/
+.streamlit/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
