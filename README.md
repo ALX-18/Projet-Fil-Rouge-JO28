@@ -65,3 +65,52 @@ python filter_categories.py --filter NOC=FRA Medal=Gold --out result_fr_gold.csv
 - Avec `--contains`, chaque valeur est cherchée comme fragment: pratique pour `Event`.
 
 Bonne analyse !
+
+## EDA rapide et graphiques
+
+Un script Python `eda_report.py` genere des tableaux CSV et des graphiques pour une exploration rapide du dataset.
+
+### Exemple d'utilisation
+
+```bash
+python eda_report.py --csv olympics_dataset.csv --out-dir outputs --top-n 15 --recent-n 5 --season Summer
+```
+
+### Fichiers generes
+
+- `outputs/tables/summary.csv`
+- `outputs/tables/medals_by_country_top.csv`
+- `outputs/tables/medals_by_sport_top.csv`
+- `outputs/tables/medals_by_year.csv`
+- `outputs/tables/participation_by_sex.csv`
+- `outputs/tables/participation_by_sex_share.csv`
+- `outputs/tables/medals_by_country_recent_top.csv`
+- `outputs/tables/medals_by_sport_country_top.csv`
+- `outputs/tables/medals_by_country_sport_top.csv`
+- `outputs/tables/focus_athletics_by_country_top.csv`
+- `outputs/tables/focus_athletics_by_year.csv`
+- `outputs/tables/focus_swimming_by_country_top.csv`
+- `outputs/tables/focus_swimming_by_year.csv`
+- `outputs/tables/prediction_2028_baseline.csv`
+- `outputs/figures/*.png`
+
+## Application Streamlit
+
+Lancer l'application:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+## Rapport storytelling
+
+Un rapport de synthese est disponible pour guider la suite du projet:
+
+- `storytelling_report.md`
+
+## Sortie des donnees
+
+Les sorties EDA sont rangees dans:
+
+- `outputs/tables/` (CSV)
+- `outputs/figures/` (PNG)
