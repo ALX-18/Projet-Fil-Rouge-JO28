@@ -1,0 +1,729 @@
+Sport,NOC,size,rank
+3x3 Basketball,ROC,8,1.0
+3x3 Basketball,USA,8,2.0
+3x3 Basketball,CHN,4,3.0
+3x3 Basketball,ESP,4,4.0
+3x3 Basketball,FRA,4,5.0
+3x3 Basketball,GER,4,6.0
+3x3 Basketball,LAT,4,7.0
+3x3 Basketball,LTU,4,8.0
+3x3 Basketball,NED,4,9.0
+3x3 Basketball,SRB,4,10.0
+Aeronautics,SUI,1,1.0
+Alpinism,GER,2,1.0
+Alpinism,SUI,2,2.0
+Archery,KOR,90,1.0
+Archery,USA,60,2.0
+Archery,BEL,52,3.0
+Archery,FRA,52,4.0
+Archery,CHN,22,5.0
+Archery,ITA,17,6.0
+Archery,GBR,13,7.0
+Archery,GER,12,8.0
+Archery,TPE,12,9.0
+Archery,JPN,11,10.0
+Archery,NED,11,11.0
+Archery,UKR,8,12.0
+Archery,MEX,7,13.0
+Archery,URS,7,14.0
+Archery,FIN,6,15.0
+Art Competitions,GER,26,1.0
+Art Competitions,FRA,15,2.0
+Art Competitions,ITA,14,3.0
+Art Competitions,AUT,10,4.0
+Art Competitions,DEN,9,5.0
+Art Competitions,GBR,9,6.0
+Art Competitions,SUI,9,7.0
+Art Competitions,USA,9,8.0
+Art Competitions,BEL,8,9.0
+Art Competitions,POL,8,10.0
+Art Competitions,NED,7,11.0
+Art Competitions,FIN,5,12.0
+Art Competitions,HUN,5,13.0
+Art Competitions,SWE,4,14.0
+Art Competitions,IRL,3,15.0
+Artistic Gymnastics,USA,26,1.0
+Artistic Gymnastics,CHN,24,2.0
+Artistic Gymnastics,JPN,16,3.0
+Artistic Gymnastics,ROC,14,4.0
+Artistic Gymnastics,BRA,10,5.0
+Artistic Gymnastics,ITA,8,6.0
+Artistic Gymnastics,GBR,7,7.0
+Artistic Gymnastics,ARM,2,8.0
+Artistic Gymnastics,GRE,2,9.0
+Artistic Gymnastics,ISR,2,10.0
+Artistic Gymnastics,KOR,2,11.0
+Artistic Gymnastics,PHI,2,12.0
+Artistic Gymnastics,TPE,2,13.0
+Artistic Gymnastics,ALG,1,14.0
+Artistic Gymnastics,BEL,1,15.0
+Artistic Swimming,CHN,21,1.0
+Artistic Swimming,ROC,10,2.0
+Artistic Swimming,UKR,10,3.0
+Artistic Swimming,ESP,9,4.0
+Artistic Swimming,USA,9,5.0
+Artistic Swimming,GBR,2,6.0
+Artistic Swimming,NED,2,7.0
+Athletics,USA,1190,1.0
+Athletics,GBR,393,2.0
+Athletics,URS,242,3.0
+Athletics,JAM,183,4.0
+Athletics,GER,165,5.0
+Athletics,GDR,140,6.0
+Athletics,FIN,138,7.0
+Athletics,SWE,132,8.0
+Athletics,CAN,120,9.0
+Athletics,KEN,120,10.0
+Athletics,FRA,118,11.0
+Athletics,RUS,103,12.0
+Athletics,AUS,100,13.0
+Athletics,POL,96,14.0
+Athletics,ITA,85,15.0
+Badminton,CHN,83,1.0
+Badminton,KOR,40,2.0
+Badminton,INA,32,3.0
+Badminton,MAS,17,4.0
+Badminton,DEN,14,5.0
+Badminton,JPN,11,6.0
+Badminton,GBR,6,7.0
+Badminton,TPE,5,8.0
+Badminton,IND,3,9.0
+Badminton,RUS,2,10.0
+Badminton,ESP,1,11.0
+Badminton,NED,1,12.0
+Badminton,THA,1,13.0
+Baseball,CUB,112,1.0
+Baseball,USA,68,2.0
+Baseball,JPN,64,3.0
+Baseball,KOR,48,4.0
+Baseball,AUS,24,5.0
+Baseball,TPE,20,6.0
+Baseball/Softball,JPN,39,1.0
+Baseball/Softball,USA,39,2.0
+Baseball/Softball,DOM,24,3.0
+Baseball/Softball,CAN,15,4.0
+Basketball,USA,389,1.0
+Basketball,URS,146,2.0
+Basketball,FRA,86,3.0
+Basketball,YUG,84,4.0
+Basketball,AUS,83,5.0
+Basketball,ESP,60,6.0
+Basketball,BRA,58,7.0
+Basketball,RUS,36,8.0
+Basketball,SRB,36,9.0
+Basketball,LTU,35,10.0
+Basketball,ARG,24,11.0
+Basketball,BUL,24,12.0
+Basketball,ITA,24,13.0
+Basketball,URU,24,14.0
+Basketball,CHN,23,15.0
+Basque Pelota,ESP,2,1.0
+Beach Volleyball,BRA,28,1.0
+Beach Volleyball,USA,22,2.0
+Beach Volleyball,GER,8,3.0
+Beach Volleyball,AUS,6,4.0
+Beach Volleyball,SUI,6,5.0
+Beach Volleyball,CAN,4,6.0
+Beach Volleyball,CHN,4,7.0
+Beach Volleyball,NOR,4,8.0
+Beach Volleyball,ESP,2,9.0
+Beach Volleyball,ITA,2,10.0
+Beach Volleyball,LAT,2,11.0
+Beach Volleyball,NED,2,12.0
+Beach Volleyball,QAT,2,13.0
+Beach Volleyball,ROC,2,14.0
+Beach Volleyball,SWE,2,15.0
+Boxing,USA,118,1.0
+Boxing,CUB,80,2.0
+Boxing,GBR,63,3.0
+Boxing,URS,51,4.0
+Boxing,ITA,48,5.0
+Boxing,POL,44,6.0
+Boxing,GER,30,7.0
+Boxing,RUS,30,8.0
+Boxing,FRA,28,9.0
+Boxing,KAZ,26,10.0
+Boxing,ROU,25,11.0
+Boxing,ARG,24,12.0
+Boxing,KOR,21,13.0
+Boxing,BUL,20,14.0
+Boxing,HUN,20,15.0
+Breaking,CAN,1,1.0
+Breaking,CHN,1,2.0
+Breaking,FRA,1,3.0
+Breaking,JPN,1,4.0
+Breaking,LTU,1,5.0
+Breaking,USA,1,6.0
+Canoe Slalom,GER,6,1.0
+Canoe Slalom,AUS,5,2.0
+Canoe Slalom,GBR,5,3.0
+Canoe Slalom,FRA,3,4.0
+Canoe Slalom,CZE,2,5.0
+Canoe Slalom,ESP,2,6.0
+Canoe Slalom,SVK,2,7.0
+Canoe Slalom,ITA,1,8.0
+Canoe Slalom,NZL,1,9.0
+Canoe Slalom,POL,1,10.0
+Canoe Slalom,SLO,1,11.0
+Canoe Slalom,USA,1,12.0
+Canoe Sprint,HUN,23,1.0
+Canoe Sprint,GER,20,2.0
+Canoe Sprint,ESP,11,3.0
+Canoe Sprint,NZL,11,4.0
+Canoe Sprint,CHN,9,5.0
+Canoe Sprint,AUS,8,6.0
+Canoe Sprint,CAN,6,7.0
+Canoe Sprint,POL,6,8.0
+Canoe Sprint,UKR,5,9.0
+Canoe Sprint,BLR,4,10.0
+Canoe Sprint,CZE,4,11.0
+Canoe Sprint,SVK,4,12.0
+Canoe Sprint,CUB,3,13.0
+Canoe Sprint,DEN,3,14.0
+Canoe Sprint,ITA,3,15.0
+Canoeing,GER,163,1.0
+Canoeing,HUN,158,2.0
+Canoeing,URS,87,3.0
+Canoeing,ROU,67,4.0
+Canoeing,SWE,57,5.0
+Canoeing,FRA,53,6.0
+Canoeing,GDR,52,7.0
+Canoeing,AUS,41,8.0
+Canoeing,POL,37,9.0
+Canoeing,CAN,33,10.0
+Canoeing,SVK,32,11.0
+Canoeing,BUL,28,12.0
+Canoeing,CZE,24,13.0
+Canoeing,ESP,24,14.0
+Canoeing,ITA,23,15.0
+Cricket,GBR,21,1.0
+Cricket,FRA,3,2.0
+Croquet,FRA,8,1.0
+Cycling,GBR,182,1.0
+Cycling,FRA,151,2.0
+Cycling,ITA,124,3.0
+Cycling,GER,94,4.0
+Cycling,AUS,84,5.0
+Cycling,USA,78,6.0
+Cycling,NED,67,7.0
+Cycling,URS,53,8.0
+Cycling,DEN,52,9.0
+Cycling,SWE,48,10.0
+Cycling,BEL,47,11.0
+Cycling,GDR,33,12.0
+Cycling,FRG,28,13.0
+Cycling,SUI,26,14.0
+Cycling,POL,24,15.0
+Cycling BMX Freestyle,GBR,3,1.0
+Cycling BMX Freestyle,AUS,2,2.0
+Cycling BMX Freestyle,USA,2,3.0
+Cycling BMX Freestyle,ARG,1,4.0
+Cycling BMX Freestyle,CHN,1,5.0
+Cycling BMX Freestyle,FRA,1,6.0
+Cycling BMX Freestyle,SUI,1,7.0
+Cycling BMX Freestyle,VEN,1,8.0
+Cycling BMX Racing,FRA,3,1.0
+Cycling BMX Racing,NED,3,2.0
+Cycling BMX Racing,COL,2,3.0
+Cycling BMX Racing,GBR,2,4.0
+Cycling BMX Racing,AUS,1,5.0
+Cycling BMX Racing,SUI,1,6.0
+Cycling Mountain Bike,SUI,4,1.0
+Cycling Mountain Bike,FRA,2,2.0
+Cycling Mountain Bike,ESP,1,3.0
+Cycling Mountain Bike,GBR,1,4.0
+Cycling Mountain Bike,RSA,1,5.0
+Cycling Mountain Bike,SWE,1,6.0
+Cycling Mountain Bike,USA,1,7.0
+Cycling Road,NED,5,1.0
+Cycling Road,BEL,4,2.0
+Cycling Road,AUS,2,3.0
+Cycling Road,FRA,2,4.0
+Cycling Road,SLO,2,5.0
+Cycling Road,AUT,1,6.0
+Cycling Road,ECU,1,7.0
+Cycling Road,GBR,1,8.0
+Cycling Road,ITA,1,9.0
+Cycling Road,SUI,1,10.0
+Cycling Track,GBR,41,1.0
+Cycling Track,AUS,18,2.0
+Cycling Track,NED,18,3.0
+Cycling Track,GER,14,4.0
+Cycling Track,ITA,14,5.0
+Cycling Track,NZL,14,6.0
+Cycling Track,DEN,11,7.0
+Cycling Track,USA,11,8.0
+Cycling Track,FRA,8,9.0
+Cycling Track,ROC,5,10.0
+Cycling Track,CHN,3,11.0
+Cycling Track,POR,3,12.0
+Cycling Track,CAN,2,13.0
+Cycling Track,BEL,1,14.0
+Cycling Track,HKG,1,15.0
+Diving,USA,147,1.0
+Diving,CHN,119,2.0
+Diving,GER,34,3.0
+Diving,RUS,27,4.0
+Diving,GBR,26,5.0
+Diving,AUS,22,6.0
+Diving,CAN,22,7.0
+Diving,MEX,22,8.0
+Diving,SWE,21,9.0
+Diving,URS,14,10.0
+Diving,ITA,12,11.0
+Diving,GDR,7,12.0
+Diving,UKR,4,13.0
+Diving,EUN,3,14.0
+Diving,MAS,3,15.0
+Equestrian,GBR,25,1.0
+Equestrian,GER,15,2.0
+Equestrian,FRA,11,3.0
+Equestrian,USA,11,4.0
+Equestrian,AUS,6,5.0
+Equestrian,SWE,5,6.0
+Equestrian,BEL,4,7.0
+Equestrian,DEN,4,8.0
+Equestrian,JPN,4,9.0
+Equestrian,NED,2,10.0
+Equestrian,SUI,1,11.0
+Equestrianism,GER,143,1.0
+Equestrianism,USA,132,2.0
+Equestrianism,SWE,85,3.0
+Equestrianism,GBR,83,4.0
+Equestrianism,FRA,79,5.0
+Equestrianism,FRG,62,6.0
+Equestrianism,NED,56,7.0
+Equestrianism,SUI,50,8.0
+Equestrianism,ITA,46,9.0
+Equestrianism,AUS,37,10.0
+Equestrianism,URS,29,11.0
+Equestrianism,BEL,23,12.0
+Equestrianism,NZL,23,13.0
+Equestrianism,CAN,17,14.0
+Equestrianism,MEX,17,15.0
+Fencing,ITA,387,1.0
+Fencing,FRA,340,2.0
+Fencing,HUN,251,3.0
+Fencing,URS,146,4.0
+Fencing,POL,86,5.0
+Fencing,USA,81,6.0
+Fencing,GER,73,7.0
+Fencing,RUS,62,8.0
+Fencing,BEL,48,9.0
+Fencing,FRG,48,10.0
+Fencing,ROU,48,11.0
+Fencing,KOR,46,12.0
+Fencing,CHN,31,13.0
+Fencing,NED,31,14.0
+Fencing,GBR,28,15.0
+Figure Skating,GBR,10,1.0
+Figure Skating,SWE,6,2.0
+Figure Skating,NOR,4,3.0
+Figure Skating,GER,3,4.0
+Figure Skating,FIN,2,5.0
+Figure Skating,RUS,1,6.0
+Figure Skating,USA,1,7.0
+Football,BRA,180,1.0
+Football,USA,144,2.0
+Football,GER,124,3.0
+Football,ESP,96,4.0
+Football,URS,87,5.0
+Football,SWE,82,6.0
+Football,HUN,79,7.0
+Football,YUG,73,8.0
+Football,CAN,71,9.0
+Football,ARG,68,10.0
+Football,DEN,65,11.0
+Football,FRA,53,12.0
+Football,GDR,51,13.0
+Football,NGR,50,14.0
+Football,POL,50,15.0
+Golf,USA,41,1.0
+Golf,GBR,4,2.0
+Golf,NZL,3,3.0
+Golf,CHN,2,4.0
+Golf,JPN,2,5.0
+Golf,CAN,1,6.0
+Golf,GER,1,7.0
+Golf,KOR,1,8.0
+Golf,SVK,1,9.0
+Golf,SWE,1,10.0
+Golf,TPE,1,11.0
+Gymnastics,URS,288,1.0
+Gymnastics,USA,194,2.0
+Gymnastics,JPN,166,3.0
+Gymnastics,ROU,135,4.0
+Gymnastics,NOR,121,5.0
+Gymnastics,DEN,111,6.0
+Gymnastics,HUN,111,7.0
+Gymnastics,CHN,109,8.0
+Gymnastics,ITA,109,9.0
+Gymnastics,SWE,103,10.0
+Gymnastics,FIN,99,11.0
+Gymnastics,GDR,86,12.0
+Gymnastics,SUI,84,13.0
+Gymnastics,RUS,83,14.0
+Gymnastics,TCH,78,15.0
+Handball,FRA,126,1.0
+Handball,NOR,115,2.0
+Handball,DEN,105,3.0
+Handball,KOR,96,4.0
+Handball,ESP,91,5.0
+Handball,URS,84,6.0
+Handball,YUG,72,7.0
+Handball,GER,68,8.0
+Handball,SWE,61,9.0
+Handball,ROU,58,10.0
+Handball,RUS,58,11.0
+Handball,CRO,46,12.0
+Handball,HUN,45,13.0
+Handball,GDR,42,14.0
+Handball,EUN,25,15.0
+Hockey,NED,308,1.0
+Hockey,IND,207,2.0
+Hockey,AUS,206,3.0
+Hockey,GER,200,4.0
+Hockey,GBR,181,5.0
+Hockey,PAK,119,6.0
+Hockey,ARG,115,7.0
+Hockey,ESP,77,8.0
+Hockey,FRG,66,9.0
+Hockey,BEL,48,10.0
+Hockey,KOR,48,11.0
+Hockey,CHN,33,12.0
+Hockey,URS,32,13.0
+Hockey,USA,30,14.0
+Hockey,TCH,16,15.0
+Ice Hockey,USA,11,1.0
+Ice Hockey,CAN,8,2.0
+Ice Hockey,TCH,8,3.0
+Jeu De Paume,GBR,2,1.0
+Jeu De Paume,USA,1,2.0
+Judo,JPN,128,1.0
+Judo,FRA,90,2.0
+Judo,KOR,61,3.0
+Judo,BRA,37,4.0
+Judo,CUB,37,5.0
+Judo,GER,35,6.0
+Judo,NED,24,7.0
+Judo,CHN,23,8.0
+Judo,URS,23,9.0
+Judo,GBR,20,10.0
+Judo,ISR,19,11.0
+Judo,ITA,18,12.0
+Judo,RUS,16,13.0
+Judo,GEO,15,14.0
+Judo,BEL,14,15.0
+Karate,TUR,4,1.0
+Karate,JPN,3,2.0
+Karate,AZE,2,3.0
+Karate,CHN,2,4.0
+Karate,EGY,2,5.0
+Karate,ESP,2,6.0
+Karate,ITA,2,7.0
+Karate,KAZ,2,8.0
+Karate,UKR,2,9.0
+Karate,AUT,1,10.0
+Karate,BUL,1,11.0
+Karate,FRA,1,12.0
+Karate,HKG,1,13.0
+Karate,HUN,1,14.0
+Karate,IRI,1,15.0
+Lacrosse,CAN,36,1.0
+Lacrosse,GBR,12,2.0
+Lacrosse,USA,12,3.0
+Marathon Swimming,HUN,2,1.0
+Marathon Swimming,NED,2,2.0
+Marathon Swimming,AUS,1,3.0
+Marathon Swimming,BRA,1,4.0
+Marathon Swimming,GER,1,5.0
+Marathon Swimming,ITA,1,6.0
+Modern Pentathlon,HUN,40,1.0
+Modern Pentathlon,URS,27,2.0
+Modern Pentathlon,SWE,25,3.0
+Modern Pentathlon,USA,17,4.0
+Modern Pentathlon,ITA,14,5.0
+Modern Pentathlon,GBR,13,6.0
+Modern Pentathlon,FIN,11,7.0
+Modern Pentathlon,FRA,8,8.0
+Modern Pentathlon,POL,6,9.0
+Modern Pentathlon,LTU,5,10.0
+Modern Pentathlon,RUS,5,11.0
+Modern Pentathlon,EUN,4,12.0
+Modern Pentathlon,TCH,4,13.0
+Modern Pentathlon,GER,3,14.0
+Modern Pentathlon,CZE,2,15.0
+Motorboating,GBR,6,1.0
+Motorboating,FRA,1,2.0
+Polo,GBR,30,1.0
+Polo,USA,12,2.0
+Polo,ARG,9,3.0
+Polo,MEX,7,4.0
+Polo,ESP,5,5.0
+Polo,FRA,4,6.0
+Racquets,GBR,10,1.0
+Rhythmic Gymnastics,RUS,45,1.0
+Rhythmic Gymnastics,BUL,24,2.0
+Rhythmic Gymnastics,ITA,23,3.0
+Rhythmic Gymnastics,BLR,22,4.0
+Rhythmic Gymnastics,ESP,12,5.0
+Rhythmic Gymnastics,CHN,11,6.0
+Rhythmic Gymnastics,GRE,6,7.0
+Rhythmic Gymnastics,ISR,6,8.0
+Rhythmic Gymnastics,ROC,6,9.0
+Rhythmic Gymnastics,UKR,5,10.0
+Rhythmic Gymnastics,EUN,2,11.0
+Rhythmic Gymnastics,URS,2,12.0
+Rhythmic Gymnastics,CAN,1,13.0
+Rhythmic Gymnastics,FRG,1,14.0
+Rhythmic Gymnastics,GER,1,15.0
+Roque,USA,3,1.0
+Rowing,USA,388,1.0
+Rowing,GBR,319,2.0
+Rowing,GER,252,3.0
+Rowing,CAN,223,4.0
+Rowing,ROU,200,5.0
+Rowing,ITA,197,6.0
+Rowing,GDR,184,7.0
+Rowing,NED,180,8.0
+Rowing,AUS,162,9.0
+Rowing,URS,155,10.0
+Rowing,FRA,123,11.0
+Rowing,NZL,103,12.0
+Rowing,DEN,81,13.0
+Rowing,SUI,77,14.0
+Rowing,NOR,62,15.0
+Rugby,FRA,49,1.0
+Rugby,USA,36,2.0
+Rugby,GBR,30,3.0
+Rugby,ROU,16,4.0
+Rugby,ANZ,15,5.0
+Rugby,GER,15,6.0
+Rugby,HAI,1,7.0
+Rugby Sevens,FIJ,53,1.0
+Rugby Sevens,NZL,50,2.0
+Rugby Sevens,CAN,26,3.0
+Rugby Sevens,FRA,26,4.0
+Rugby Sevens,RSA,26,5.0
+Rugby Sevens,ARG,13,6.0
+Rugby Sevens,AUS,12,7.0
+Rugby Sevens,GBR,12,8.0
+Rugby Sevens,USA,12,9.0
+Sailing,GBR,153,1.0
+Sailing,USA,142,2.0
+Sailing,NOR,127,3.0
+Sailing,FRA,124,4.0
+Sailing,SWE,120,5.0
+Sailing,DEN,68,6.0
+Sailing,AUS,58,7.0
+Sailing,NED,52,8.0
+Sailing,GER,46,9.0
+Sailing,NZL,39,10.0
+Sailing,ESP,38,11.0
+Sailing,BRA,36,12.0
+Sailing,FIN,35,13.0
+Sailing,ITA,31,14.0
+Sailing,CAN,25,15.0
+Shooting,USA,207,1.0
+Shooting,SWE,127,2.0
+Shooting,GBR,102,3.0
+Shooting,CHN,81,4.0
+Shooting,NOR,77,5.0
+Shooting,FRA,71,6.0
+Shooting,SUI,57,7.0
+Shooting,ITA,49,8.0
+Shooting,URS,49,9.0
+Shooting,FIN,41,10.0
+Shooting,RUS,36,11.0
+Shooting,GER,31,12.0
+Shooting,DEN,28,13.0
+Shooting,GRE,25,14.0
+Shooting,CAN,24,15.0
+Skateboarding,JPN,9,1.0
+Skateboarding,BRA,5,2.0
+Skateboarding,USA,5,3.0
+Skateboarding,AUS,3,4.0
+Skateboarding,GBR,2,5.0
+Softball,AUS,60,1.0
+Softball,USA,60,2.0
+Softball,JPN,44,3.0
+Softball,CHN,15,4.0
+Sport Climbing,AUT,3,1.0
+Sport Climbing,JPN,3,2.0
+Sport Climbing,USA,3,3.0
+Sport Climbing,CHN,2,4.0
+Sport Climbing,POL,2,5.0
+Sport Climbing,SLO,2,6.0
+Sport Climbing,ESP,1,7.0
+Sport Climbing,GBR,1,8.0
+Sport Climbing,INA,1,9.0
+Surfing,BRA,3,1.0
+Surfing,AUS,2,2.0
+Surfing,FRA,2,3.0
+Surfing,JPN,2,4.0
+Surfing,USA,2,5.0
+Surfing,RSA,1,6.0
+Swimming,USA,1206,1.0
+Swimming,AUS,505,2.0
+Swimming,GER,160,3.0
+Swimming,GBR,157,4.0
+Swimming,GDR,152,5.0
+Swimming,JPN,127,6.0
+Swimming,URS,124,7.0
+Swimming,CAN,121,8.0
+Swimming,CHN,120,9.0
+Swimming,NED,118,10.0
+Swimming,HUN,99,11.0
+Swimming,FRA,93,12.0
+Swimming,SWE,73,13.0
+Swimming,FRG,59,14.0
+Swimming,ITA,48,15.0
+Synchronized Swimming,RUS,54,1.0
+Synchronized Swimming,JPN,52,2.0
+Synchronized Swimming,CHN,31,3.0
+Synchronized Swimming,USA,30,4.0
+Synchronized Swimming,CAN,26,5.0
+Synchronized Swimming,ESP,20,6.0
+Synchronized Swimming,FRA,2,7.0
+Table Tennis,CHN,104,1.0
+Table Tennis,KOR,38,2.0
+Table Tennis,JPN,23,3.0
+Table Tennis,GER,20,4.0
+Table Tennis,FRA,7,5.0
+Table Tennis,PRK,7,6.0
+Table Tennis,SGP,7,7.0
+Table Tennis,SWE,7,8.0
+Table Tennis,HKG,5,9.0
+Table Tennis,TPE,4,10.0
+Table Tennis,YUG,4,11.0
+Table Tennis,DEN,2,12.0
+Taekwondo,KOR,25,1.0
+Taekwondo,CHN,13,2.0
+Taekwondo,USA,11,3.0
+Taekwondo,FRA,10,4.0
+Taekwondo,GBR,10,5.0
+Taekwondo,IRI,10,6.0
+Taekwondo,TUR,10,7.0
+Taekwondo,TPE,9,8.0
+Taekwondo,CUB,7,9.0
+Taekwondo,ESP,7,10.0
+Taekwondo,MEX,7,11.0
+Taekwondo,THA,7,12.0
+Taekwondo,CRO,6,13.0
+Taekwondo,ITA,5,14.0
+Taekwondo,SRB,5,15.0
+Tennis,GBR,67,1.0
+Tennis,USA,66,2.0
+Tennis,FRA,38,3.0
+Tennis,ESP,23,4.0
+Tennis,GER,16,5.0
+Tennis,CZE,15,6.0
+Tennis,AUS,14,7.0
+Tennis,SWE,14,8.0
+Tennis,GRE,13,9.0
+Tennis,CRO,10,10.0
+Tennis,RUS,10,11.0
+Tennis,SUI,9,12.0
+Tennis,RSA,8,13.0
+Tennis,ARG,7,14.0
+Tennis,CHN,7,15.0
+Trampoline Gymnastics,CHN,5,1.0
+Trampoline Gymnastics,AIN,2,2.0
+Trampoline Gymnastics,GBR,2,3.0
+Trampoline Gymnastics,BLR,1,4.0
+Trampoline Gymnastics,CAN,1,5.0
+Trampoline Gymnastics,NZL,1,6.0
+Trampolining,CHN,11,1.0
+Trampolining,CAN,7,2.0
+Trampolining,RUS,4,3.0
+Trampolining,GER,2,4.0
+Trampolining,UKR,2,5.0
+Trampolining,AUS,1,6.0
+Trampolining,BLR,1,7.0
+Trampolining,GBR,1,8.0
+Trampolining,UZB,1,9.0
+Triathlon,GBR,14,1.0
+Triathlon,USA,8,2.0
+Triathlon,FRA,7,3.0
+Triathlon,SUI,6,4.0
+Triathlon,AUS,5,5.0
+Triathlon,NZL,5,6.0
+Triathlon,CAN,2,7.0
+Triathlon,GER,2,8.0
+Triathlon,AUT,1,9.0
+Triathlon,BER,1,10.0
+Triathlon,CZE,1,11.0
+Triathlon,ESP,1,12.0
+Triathlon,NOR,1,13.0
+Triathlon,POR,1,14.0
+Triathlon,RSA,1,15.0
+Tug-Of-War,GBR,40,1.0
+Tug-Of-War,SWE,19,2.0
+Tug-Of-War,USA,14,3.0
+Tug-Of-War,GER,9,4.0
+Tug-Of-War,BEL,8,5.0
+Tug-Of-War,GRE,8,6.0
+Tug-Of-War,NED,8,7.0
+Tug-Of-War,FRA,5,8.0
+Tug-Of-War,DEN,3,9.0
+Tug-Of-War,COL,1,10.0
+Volleyball,USA,158,1.0
+Volleyball,BRA,145,2.0
+Volleyball,URS,141,3.0
+Volleyball,JPN,101,4.0
+Volleyball,ITA,85,5.0
+Volleyball,RUS,70,6.0
+Volleyball,CHN,66,7.0
+Volleyball,CUB,52,8.0
+Volleyball,POL,47,9.0
+Volleyball,FRA,25,10.0
+Volleyball,ARG,24,11.0
+Volleyball,GDR,24,12.0
+Volleyball,NED,24,13.0
+Volleyball,SRB,24,14.0
+Volleyball,SCG,23,15.0
+Water Polo,HUN,198,1.0
+Water Polo,USA,176,2.0
+Water Polo,ITA,120,3.0
+Water Polo,URS,78,4.0
+Water Polo,YUG,76,5.0
+Water Polo,SRB,65,6.0
+Water Polo,ESP,62,7.0
+Water Polo,BEL,54,8.0
+Water Polo,AUS,52,9.0
+Water Polo,CRO,51,10.0
+Water Polo,RUS,51,11.0
+Water Polo,NED,44,12.0
+Water Polo,FRA,30,13.0
+Water Polo,GBR,28,14.0
+Water Polo,GER,27,15.0
+Weightlifting,CHN,70,1.0
+Weightlifting,URS,62,2.0
+Weightlifting,USA,46,3.0
+Weightlifting,BUL,38,4.0
+Weightlifting,POL,32,5.0
+Weightlifting,RUS,26,6.0
+Weightlifting,GER,25,7.0
+Weightlifting,HUN,20,8.0
+Weightlifting,IRI,19,9.0
+Weightlifting,ITA,19,10.0
+Weightlifting,KAZ,18,11.0
+Weightlifting,PRK,17,12.0
+Weightlifting,FRA,16,13.0
+Weightlifting,GRE,16,14.0
+Weightlifting,JPN,15,15.0
+Wrestling,USA,144,1.0
+Wrestling,URS,116,2.0
+Wrestling,JPN,87,3.0
+Wrestling,SWE,86,4.0
+Wrestling,FIN,85,5.0
+Wrestling,BUL,73,6.0
+Wrestling,TUR,68,7.0
+Wrestling,RUS,60,8.0
+Wrestling,HUN,57,9.0
+Wrestling,IRI,55,10.0
+Wrestling,GER,38,11.0
+Wrestling,KOR,36,12.0
+Wrestling,ROU,33,13.0
+Wrestling,CUB,30,14.0
+Wrestling,AZE,29,15.0

@@ -1,0 +1,85 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "file": "exports/header_panel.png",
+      "x": 90,
+      "y": 70,
+      "width": 1740,
+      "height": 170
+    },
+    {
+      "file": "exports/timeline_connector.png",
+      "x": 210,
+      "y": 255,
+      "width": 1500,
+      "height": 110
+    },
+    {
+      "file": "exports/step_card_01.png",
+      "x": 130,
+      "y": 380,
+      "width": 390,
+      "height": 165
+    },
+    {
+      "file": "exports/step_card_02.png",
+      "x": 560,
+      "y": 380,
+      "width": 390,
+      "height": 165
+    },
+    {
+      "file": "exports/step_card_03.png",
+      "x": 990,
+      "y": 380,
+      "width": 390,
+      "height": 165
+    },
+    {
+      "file": "exports/step_card_04.png",
+      "x": 1420,
+      "y": 380,
+      "width": 390,
+      "height": 165
+    },
+    {
+      "file": "exports/step_card_05.png",
+      "x": 130,
+      "y": 590,
+      "width": 390,
+      "height": 165
+    },
+    {
+      "file": "exports/step_card_06.png",
+      "x": 560,
+      "y": 590,
+      "width": 390,
+      "height": 165
+    },
+    {
+      "file": "exports/step_card_07.png",
+      "x": 990,
+      "y": 590,
+      "width": 390,
+      "height": 165
+    },
+    {
+      "file": "exports/step_card_08.png",
+      "x": 1420,
+      "y": 590,
+      "width": 390,
+      "height": 165
+    },
+    {
+      "file": "exports/footer_block.png",
+      "x": 90,
+      "y": 880,
+      "width": 1740,
+      "height": 160
+    }
+  ]
+}

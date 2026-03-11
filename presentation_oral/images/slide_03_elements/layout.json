@@ -1,0 +1,29 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "file": "exports/left_content_panel.png",
+      "x": 90,
+      "y": 90,
+      "width": 950,
+      "height": 900
+    },
+    {
+      "file": "exports/right_placeholder_panel.png",
+      "x": 1070,
+      "y": 90,
+      "width": 760,
+      "height": 900
+    },
+    {
+      "file": "exports/kpi_chips.png",
+      "x": 1070,
+      "y": 985,
+      "width": 760,
+      "height": 90
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+raw_sport,normalized_sport,decision,reason
+3x3 Basketball,3x3 Basketball,EXCLUDE,Outside selected scope for first curated version.
+"3x3 Basketball, Basketball",3x3 Basketball,EXCLUDE,Composite/noisy label to exclude from main scope.
+Aeronautics,Aeronautics,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Alpinism,Alpinism,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Archery,Archery,KEEP,Top sport with strong volume and recent continuity.
+Art Competitions,Art Competitions,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Artistic Gymnastics,Artistic Gymnastics,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Artistic Swimming,Artistic Swimming,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Athletics,Athletics,KEEP,Top sport with strong volume and recent continuity.
+Badminton,Badminton,KEEP,Top sport with strong volume and recent continuity.
+Baseball,Baseball,EXCLUDE,Outside selected scope for first curated version.
+Baseball/Softball,Baseball/Softball,EXCLUDE,Outside selected scope for first curated version.
+Basketball,Basketball,KEEP,Top sport with strong volume and recent continuity.
+Basque Pelota,Basque Pelota,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Beach Volleyball,Beach Volleyball,KEEP,Top sport with strong volume and recent continuity.
+Boxing,Boxing,KEEP,Top sport with strong volume and recent continuity.
+Breaking,Breaking,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Canoe Slalom,Canoe Slalom,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Canoe Sprint,Canoe Sprint,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Canoeing,Canoe Sprint,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Cricket,Cricket,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Croquet,Croquet,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Cycling,Cycling,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Cycling BMX Freestyle,Cycling BMX Freestyle,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Cycling BMX Racing,Cycling BMX Racing,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Cycling Mountain Bike,Cycling Mountain Bike,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Cycling Road,Cycling Road,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+"Cycling Road, Cycling Mountain Bike",Cycling,EXCLUDE,Composite/noisy label to exclude from main scope.
+"Cycling Road, Cycling Track",Cycling,EXCLUDE,Composite/noisy label to exclude from main scope.
+"Cycling Road, Triathlon",Triathlon,EXCLUDE,Composite/noisy label to exclude from main scope.
+Cycling Track,Cycling Track,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Diving,Diving,KEEP,Top sport with strong volume and recent continuity.
+Equestrian,Equestrian,KEEP,User-approved addition to core scope.
+Equestrianism,Equestrian,KEEP,User-approved addition to core scope.
+Fencing,Fencing,KEEP,Top sport with strong volume and recent continuity.
+Figure Skating,Figure Skating,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Football,Football,KEEP,Top sport with strong volume and recent continuity.
+Golf,Golf,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Gymnastics,Gymnastics,KEEP,User-approved addition to core scope.
+Handball,Handball,KEEP,Top sport with strong volume and recent continuity.
+Hockey,Hockey,KEEP,Top sport with strong volume and recent continuity.
+Ice Hockey,Ice Hockey,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Jeu De Paume,Jeu De Paume,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Judo,Judo,KEEP,Top sport with strong volume and recent continuity.
+Karate,Karate,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Lacrosse,Lacrosse,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Marathon Swimming,Marathon Swimming,KEEP,User-approved addition to core scope.
+"Marathon Swimming, Swimming",Marathon Swimming,KEEP,User-approved addition to core scope.
+Modern Pentathlon,Modern Pentathlon,KEEP,Top sport with strong volume and recent continuity.
+Motorboating,Motorboating,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Polo,Polo,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Racquets,Racquets,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Rhythmic Gymnastics,Rhythmic Gymnastics,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Roque,Roque,EXCLUDE,Legacy or low-priority sport for JO 2028 scope.
+Rowing,Rowing,KEEP,Top sport with strong volume and recent continuity.
+Rugby,Rugby,EXCLUDE,Outside selected scope for first curated version.
+Rugby Sevens,Rugby Sevens,KEEP,Top sport with strong volume and recent continuity.
+Sailing,Sailing,KEEP,Top sport with strong volume and recent continuity.
+Shooting,Shooting,KEEP,Top sport with strong volume and recent continuity.
+Skateboarding,Skateboarding,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Softball,Softball,EXCLUDE,Outside selected scope for first curated version.
+Sport Climbing,Sport Climbing,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Surfing,Surfing,KEEP,User-approved addition to core scope.
+Swimming,Swimming,KEEP,Top sport with strong volume and recent continuity.
+Synchronized Swimming,Synchronized Swimming,EXCLUDE,Outside selected scope for first curated version.
+Table Tennis,Table Tennis,KEEP,Top sport with strong volume and recent continuity.
+Taekwondo,Taekwondo,KEEP,Top sport with strong volume and recent continuity.
+Tennis,Tennis,KEEP,Top sport with strong volume and recent continuity.
+Tokyo,Tokyo,EXCLUDE,Outside selected scope for first curated version.
+Trampoline Gymnastics,Trampoline Gymnastics,KEEP_REVIEW,"Relevant sport, but needs label normalization or recent-history caution."
+Trampolining,Trampolining,EXCLUDE,Outside selected scope for first curated version.
+Triathlon,Triathlon,KEEP,Top sport with strong volume and recent continuity.
+Tug-Of-War,Tug-Of-War,EXCLUDE,Outside selected scope for first curated version.
+Volleyball,Volleyball,KEEP,Top sport with strong volume and recent continuity.
+Water Polo,Water Polo,KEEP,Top sport with strong volume and recent continuity.
+Weightlifting,Weightlifting,KEEP,Top sport with strong volume and recent continuity.
+Wrestling,Wrestling,KEEP,Top sport with strong volume and recent continuity.
