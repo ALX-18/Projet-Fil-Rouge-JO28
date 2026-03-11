@@ -1,0 +1,50 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "file": "exports/left_panel.png",
+      "x": 90,
+      "y": 90,
+      "width": 890,
+      "height": 900
+    },
+    {
+      "file": "exports/right_panel_placeholder.png",
+      "x": 1040,
+      "y": 90,
+      "width": 790,
+      "height": 900
+    },
+    {
+      "file": "exports/accent_lines.png",
+      "x": 1085,
+      "y": 185,
+      "width": 340,
+      "height": 20
+    },
+    {
+      "file": "exports/data_bars.png",
+      "x": 150,
+      "y": 560,
+      "width": 300,
+      "height": 250
+    },
+    {
+      "file": "exports/text_block.png",
+      "x": 140,
+      "y": 150,
+      "width": 760,
+      "height": 820
+    },
+    {
+      "file": "exports/placeholder_label.png",
+      "x": 1085,
+      "y": 130,
+      "width": 520,
+      "height": 40
+    }
+  ]
+}

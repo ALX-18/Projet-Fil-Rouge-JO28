@@ -1,0 +1,22 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "file": "exports/header.png",
+      "x": 90,
+      "y": 70,
+      "width": 1740,
+      "height": 150
+    },
+    {
+      "file": "exports/pipeline_diagram.png",
+      "x": 90,
+      "y": 250,
+      "width": 1740,
+      "height": 760
+    }
+  ]
+}
