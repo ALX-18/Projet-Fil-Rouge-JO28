@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from .config import ANALYTICS_DATA_PATH, RAW_DATA_PATH
+from .config import AGGREGATED_DATA_PATH, RAW_DATA_PATH
 
 
 MEDAL_POINTS = {"Gold": 3, "Silver": 2, "Bronze": 1}
@@ -117,8 +117,12 @@ def aggregate_country_year_sport(df: pd.DataFrame) -> pd.DataFrame:
     return aggregated
 
 
-def build_analytics_dataset(raw_path: Path | str = RAW_DATA_PATH, out_path: Path | str = ANALYTICS_DATA_PATH) -> pd.DataFrame:
-    """Build analytics dataset (includes latest year, e.g. 2024)."""
+def build_analytics_dataset(raw_path: Path | str = RAW_DATA_PATH, out_path: Path | str = AGGREGATED_DATA_PATH) -> pd.DataFrame:
+    """Build aggregated dataset at (NOC, Year, Sport) granularity, without features.
+
+    Written to AGGREGATED_DATA_PATH so it never clobbers the feature frame stored at
+    ANALYTICS_DATA_PATH (which the app and prediction code rely on).
+    """
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
 

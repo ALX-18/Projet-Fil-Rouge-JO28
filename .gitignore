@@ -21,3 +21,7 @@ reports/metrics/*.json
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Tooling & artefacts
+.claude/
+reports/metrics/*.csv

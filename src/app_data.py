@@ -21,8 +21,6 @@ from .features import build_feature_frame, build_supervised_dataset
 from .noc import format_noc_label
 from .pipeline import run_pipeline
 
-COLLEAGUE_TABLES_DIR = Path("reports/colleague_snapshot/outputs/tables")
-
 
 def preferred_source_path() -> Path:
     """Return preferred source dataset for app/pipeline."""
@@ -122,11 +120,3 @@ def aggregate_story_view(raw_filtered: pd.DataFrame) -> pd.DataFrame:
             columns=["Year", "NOC", "Sport", "athletes", "entries", "female_ratio", "male_ratio", "medals", "medal_points"]
         )
     return aggregate_country_year_sport(raw_filtered)
-
-
-@st.cache_data(show_spinner=False)
-def load_colleague_table(filename: str) -> pd.DataFrame:
-    path = COLLEAGUE_TABLES_DIR / filename
-    if not path.exists():
-        return pd.DataFrame()
-    return pd.read_csv(path)

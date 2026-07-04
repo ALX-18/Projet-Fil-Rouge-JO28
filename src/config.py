@@ -5,6 +5,9 @@ DATA_DIR = BASE_DIR / "data"
 RAW_DATA_PATH = DATA_DIR / "raw" / "olympics_dataset.csv"
 CURATED_CORE_DATA_PATH = DATA_DIR / "processed" / "olympics_dataset_curated_core.csv"
 CURATED_EXTENDED_DATA_PATH = DATA_DIR / "processed" / "olympics_dataset_curated_extended.csv"
+# Aggregated frame (NOC, Year, Sport) WITHOUT temporal features.
+AGGREGATED_DATA_PATH = DATA_DIR / "processed" / "aggregated_country_year_sport.csv"
+# Feature frame (aggregation + lag/rolling features) consumed by the app and models.
 ANALYTICS_DATA_PATH = DATA_DIR / "processed" / "analytics_country_year_sport.csv"
 SUPERVISED_DATA_PATH = DATA_DIR / "processed" / "supervised_country_year_sport.csv"
 # Backward-compatible aliases for older imports.

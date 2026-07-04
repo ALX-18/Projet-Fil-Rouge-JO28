@@ -5,6 +5,42 @@ from __future__ import annotations
 import pandas as pd
 import plotly.express as px
 
+from .noc import format_noc_label, noc_to_iso3
+
+
+def medals_map_chart(df: pd.DataFrame):
+    """World choropleth of total medals by country.
+
+    Historical delegations without a modern ISO code (e.g. URS, GDR) are dropped
+    from the map; a caption in the app documents this limitation.
+    """
+    agg = df.groupby("NOC", as_index=False)["medals"].sum()
+    agg["iso3"] = agg["NOC"].map(noc_to_iso3)
+    agg = agg[agg["iso3"].notna() & (agg["medals"] > 0)].copy()
+    if agg.empty:
+        return px.choropleth(title="Carte des medailles (aucune donnee)")
+
+    agg["Pays"] = agg["NOC"].map(format_noc_label)
+    fig = px.choropleth(
+        agg,
+        locations="iso3",
+        color="medals",
+        hover_name="Pays",
+        color_continuous_scale="YlOrRd",
+        title="Carte mondiale des medailles (cumul sur la periode filtree)",
+        labels={"medals": "Medailles"},
+    )
+    fig.update_geos(
+        showframe=False,
+        showcoastlines=False,
+        showland=True,
+        landcolor="#1a2540",
+        bgcolor="rgba(0,0,0,0)",
+        projection_type="natural earth",
+    )
+    fig.update_layout(margin={"r": 0, "t": 50, "l": 0, "b": 0}, geo=dict(bgcolor="rgba(0,0,0,0)"))
+    return fig
+
 
 def medals_by_country_chart(df: pd.DataFrame):
     agg = df.groupby("NOC", as_index=False)["medals"].sum().sort_values("medals", ascending=False).head(15)
@@ -131,6 +167,39 @@ def distribution_medals_chart(
         legend_title_text=split_by if split_col else "",
         bargap=0.06,
     )
+    return fig
+
+
+def top_events_chart(raw_df: pd.DataFrame, sport: str, top_n: int = 15):
+    """Top epreuves (events) d'un sport par nombre de medailles distribuees.
+
+    Expose le detail fin (ex. '100 metres', '1,500 metres') porte par la colonne Event,
+    qui n'apparait pas a la maille sport.
+    """
+    work = raw_df[(raw_df["Sport"] == sport) & (raw_df["Medal"].isin(["Gold", "Silver", "Bronze"]))].copy()
+    if work.empty or "Event" not in work.columns:
+        return px.bar(title=f"Epreuves de {sport} (aucune donnee)")
+
+    # Nettoie le libelle: retire le prefixe redondant du sport (ex. "Athletics Men's 100 metres").
+    work["Epreuve"] = (
+        work["Event"].astype(str).str.replace(rf"^{sport}\s+", "", regex=True).str.strip()
+    )
+    agg = (
+        work.groupby("Epreuve", as_index=False)
+        .size()
+        .rename(columns={"size": "medals"})
+        .sort_values("medals", ascending=False)
+        .head(top_n)
+    )
+    fig = px.bar(
+        agg.sort_values("medals"),
+        x="medals",
+        y="Epreuve",
+        orientation="h",
+        title=f"Top {top_n} epreuves de {sport} (par medailles distribuees)",
+        labels={"medals": "Medailles distribuees", "Epreuve": "Epreuve"},
+    )
+    fig.update_layout(height=max(320, 26 * len(agg)))
     return fig
 
 

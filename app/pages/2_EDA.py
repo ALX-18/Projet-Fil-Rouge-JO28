@@ -9,7 +9,9 @@ from src.visualization import (
     global_evolution_chart,
     heatmap_country_sport,
     medals_by_sport_stacked_chart,
+    medals_map_chart,
     multi_country_sport_chart,
+    top_events_chart,
 )
 st.set_page_config(page_title="YPerf - Analyse EDA", page_icon=":microscope:", layout="wide")
 apply_theme()
@@ -24,6 +26,13 @@ filtered = aggregate_story_view(raw_filtered)
 if filtered.empty:
     st.warning("Aucune donnee apres filtres.")
     st.stop()
+
+st.subheader("Carte mondiale des medailles")
+st.plotly_chart(medals_map_chart(filtered), use_container_width=True)
+st.caption(
+    "Les delegations historiques sans code pays ISO moderne (URS, GDR, RFA, Tchecoslovaquie...) "
+    "ne sont pas representees sur la carte."
+)
 
 st.plotly_chart(global_evolution_chart(raw_filtered), use_container_width=True)
 
@@ -53,9 +62,17 @@ st.plotly_chart(medals_by_sport_stacked_chart(raw_dist), use_container_width=Tru
 st.plotly_chart(heatmap_country_sport(filtered), use_container_width=True)
 st.plotly_chart(female_ratio_chart(filtered), use_container_width=True)
 
+st.subheader("Zoom par sport et par epreuve")
 sports = sorted(filtered["Sport"].unique().tolist())
-selected_sport = st.selectbox("Choisir un sport pour comparer les pays", options=sports)
+selected_sport = st.selectbox("Choisir un sport", options=sports)
 st.plotly_chart(multi_country_sport_chart(filtered, selected_sport), use_container_width=True)
+
+# Detail fin par epreuve (100m, 1500m...) porte par la colonne Event.
+st.plotly_chart(top_events_chart(raw_filtered, selected_sport), use_container_width=True)
+st.caption(
+    "Le detail par epreuve (ex. 100m, 1500m) provient de la colonne 'Event' : un meme sport "
+    "regroupe de nombreuses epreuves."
+)
 
 country_dom = (
     filtered.groupby(["NOC", "Sport"], as_index=False)["medals"].sum()
