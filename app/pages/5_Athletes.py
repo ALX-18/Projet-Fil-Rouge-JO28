@@ -112,13 +112,18 @@ else:
 
 # --- 4. Evolution d'un athlete -----------------------------------------------
 st.subheader("Evolution d'un athlete")
+st.caption(
+    "Tape le nom d'un athlete pour le rechercher. La liste couvre les "
+    f"{athlete_medals['Name'].nunique():,} athletes ayant remporte au moins une medaille."
+)
 athlete_year = (
     medaled.groupby(["Name", "Year"], as_index=False)["is_medal"]
     .sum()
     .rename(columns={"is_medal": "medals"})
     .sort_values(["Name", "Year"])
 )
-athlete_options = athlete_medals.head(100)["Name"].tolist()
+# Toute la liste des athletes medailles (triee par palmares), pas seulement le top 100.
+athlete_options = athlete_medals["Name"].tolist()
 selected = st.selectbox("Choisir un athlete", options=athlete_options)
 curve = athlete_year[athlete_year["Name"] == selected]
 fig_curve = px.line(
